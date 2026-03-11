@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+.envrc
+
+# Data files (never push datasets to GitHub)
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.json
+*.parquet
+
+# Model weights
+*.h5
+*.pt
+*.pth
+*.onnx
+*.joblib
+*.pickle
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS Files
+.DS_Store
+
+# Node (if using JS for frontend API)
+node_modules/
+dist/
+
+# Logs
+*.log
+logs/
+
+# VS Code
+.vscode/
+
+ 
